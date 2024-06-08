@@ -30,8 +30,8 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
   ****
   
 ### 2. Diseño de prototipado
- En base al desafío planteado, se realiza el diseño del prototipado del landing page con un formato simple. Para este caso se parte con la premisa de considerar como eje central la propuesta de un Blog de viajes. A continuación se muestra el diagrama del prototipado como estructura inicial para el desarrollo de código en HTML y CSS.
-  ![img funcion crearEncuesta](./images/Funcion_crearencuesta.png)
+ En base al desafío planteado, se realiza el diseño del prototipado del landing page con un formato simple en draw.io. Para este caso se parte con la premisa de considerar como eje central la propuesta de un Blog de viajes. A continuación se muestra el diagrama del prototipado como estructura inicial para su posterior desarrollo de código en HTML y CSS.
+  ![img prototipado](./images/prototipado.png)
 
 ****
 

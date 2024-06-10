@@ -30,34 +30,47 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
   ****
   
 ### 2. Diseño de prototipado
- En base al desafío planteado, se realiza el diseño del prototipado del landing page con un formato simple en draw.io. Para este caso se parte con la premisa de considerar como eje central la propuesta de un Blog de viajes. A continuación se muestra el diagrama del prototipado como estructura inicial para su posterior desarrollo de código en HTML y CSS.
+ En base al desafío planteado, se realiza el diseño del prototipado del landing page con un formato simple en "draw.io". Para este caso se parte con la premisa de considerar como eje central la propuesta de un Blog de viajes. A continuación se muestra el diagrama del prototipado como estructura inicial para su posterior desarrollo de código en HTML y CSS.
   ![img prototipado](./images/prototipado.png)
 
 ****
 
 ### 3. Desarrollo de proyecto
- Se establecen las etiquetas de base en HTML, y adicionalmente al inicio se aplican los links que permitan el funcionamiento de elementos que se aplicarán más adelante en el código.
+ Se establecen las etiquetas de base en HTML, al inicio se aplican los links que permitan el funcionamiento de elementos que se aplicarán más adelante en el código y que permitirán que la página funcione eficientemente, y asi como la creación de "Header":
  
- ![img funcion crearEncuesta](./images/Funcion_crearencuesta.png)
+ ![img codigo html inicio](./images/inicio_html)
  
- Dentro de esa función se incluye un objeto que almacene resultados, el cual inicia con valor "0", en espera de recibir las respuestas. Posteriormente se agrega "return" para que devolvuelva un objeto conteniendo pregunta, respuestas y resultados. Adicionalmente se incluye una función de "votar" para registrar los votos de la encuesta.
+ Luego se crea la etiqueta "Nav" en base a bootstrap, el cual fue modificado para incluir logo, además de contenido y otros ajustes:
+ ![img codigo html nav](./images/navl)
 
- Para que el usuario pueda ingresar encuestas, se habilita una función, considerando un número de preguntas como base mínimo, adicionalmente se le solicita al usuario que ingrese las respuestas posibles por separado. Para proceder con el registro de las respuestas, se agrega el método push para que permita modificar el array de "respuestas", agregando un nuevo elemento al final del mismo.
- Posteriormente se utiliza la función de crearEncuesta para crear una encuesta, luego se agrega una encuesta nueva al arreglo de encuesta, y una vez realizado esto, se indica al usuario que está votando en la encuesta que está ingresando. Al final el bucle, se retornará el arreglo de "encuestas" con la data ingresada en las nuevas encuestas.
+ Posterior se crea la etiqueta "Main", se incluye una sección con videos y contenido principal:
+ ![img codigo html main](./images/main)
 
- ![img funcion ingresarEncuesta](./images/Funcion_ingresaencuesta.png)
+ Se incluye una sección de cards, con Bootstrap, en donde se agrega contenido e imagenes en relación al tema de viajes: 
+ ![img codigo html cards](./images/cards.png)
 
- Se procede con la función de votar, con el fin de que los usuarios puedan seleccionar la respuesta, votando por una opción en la encuesta creada:
-  
- ---> Incluir imagenes del proyecto ![img funcion votarEncuesta](./images/Funcion_votarencuesta.png)
+ Para la sección de cierre, con la etiqueta "Footer", se incluye links de redes de contacto y numeración de páginas: 
+ ![img codigo html footer](./images/footer.png)
 
- 
-*[Se incluye Link para visualización del Código](./Codigo)*
-  
+ Y para finalizar, se incluyen los scripts previo al cierre de la etiqueta de "Body":
+ ![img codigo html scripts](./images/cierre_scripts.png)
+   
+*[Se incluye Link para visualización del Código index.html](./Codigo)*
+
+  Para CSS, se establecen los estilos de base:
+  ![img codigo CSS](./images/CSS_inicio.png)
+
+  Al final se incluye media queries, mobile first design para aplicar los ajustes necesarios en la vista "mobile":
+  ![img codigo media](./images/media.png)
+
+ *[Se incluye Link para visualización del Código style.css](./Codigo)*
+
+ Adicionalmente se desplegó el landing page en GitHub Pages para el Blog Solo Viajes: https://
+
   ****
   
   ### 5. Conclusiones
- Para la preparación del landing page, se dio inicio con la estructura base, tomando como guía las etiquetas....(en desarrollo)
+ Para la preparación del landing page, se dio inicio con la estructura base, tomando como guía las etiquetas típicas de HTML. Durante la investigación, se visualizan diferentes elementos que permitían la modificación de letras, implementación de navbar ajustables, asi como otros elementos que permitieron hacer una página más interesante a nivel visual, desde el punto de vista UI.
   ****
 *¡Gracias!*
 

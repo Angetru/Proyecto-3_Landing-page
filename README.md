@@ -30,7 +30,8 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
   ****
   
 ### 2. Diseño de prototipado
- En base al desafío planteado, se realiza el diseño del prototipado del landing page con un formato simple en "draw.io". Para este caso se parte con la premisa de considerar como eje central la propuesta de un Blog de viajes. A continuación se muestra el diagrama del prototipado como estructura inicial para su posterior desarrollo de código en HTML y CSS.
+ En base al desafío planteado, se realiza el diseño del prototipado del landing page con un formato simple en "draw.io". Para este caso se parte con la premisa de considerar como eje central la propuesta de un Blog de viajes. A continuación se muestra el diagrama del prototipado como estructura inicial para su posterior desarrollo de código en HTML y CSS:
+ 
   ![img prototipado](./images/prototipado.png)
 
 ****
@@ -41,21 +42,26 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
  ![img codigo html inicio](./images/inicio_html.png)
  
  Luego se crea la etiqueta "Nav" en base a bootstrap, el cual fue modificado para incluir logo, además de contenido y otros ajustes:
+ 
  ![img codigo html nav](./images/navl.png)
 
  Posterior se crea la etiqueta "Main", se incluye una sección con videos y contenido principal:
+ 
  ![img codigo html main](./images/main.png)
 
  Se incluye una sección de cards, con Bootstrap, en donde se agrega contenido e imagenes en relación al tema de viajes: 
+ 
  ![img codigo html cards](./images/cards.png)
 
  Para la sección de cierre, con la etiqueta "Footer", se incluye links de redes de contacto y numeración de páginas: 
+ 
  ![img codigo html footer](./images/footer.png)
 
  Y para finalizar, se incluyen los scripts previo al cierre de la etiqueta de "Body":
+ 
  ![img codigo html scripts](./images/cierre_scripts.png)
    
-*[Se incluye Link para visualización del Código index.html](./codigo)*
+*[Se incluye Link para visualización del Código index.html](./index.html)*
 
   Para CSS, se establecen los estilos de base:
   ![img codigo CSS](./images/CSS_inicio.png)
@@ -63,9 +69,9 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
   Al final se incluye media queries, mobile first design para aplicar los ajustes necesarios en la vista "mobile":
   ![img codigo media](./images/media.png)
 
- *[Se incluye Link para visualización del Código style.css](./codigo)*
+ *[Se incluye Link para visualización del Código style.css](./style.css)*
 
- Adicionalmente se muestra un extracto del landing page y se desplegó en GitHub Pages para el Blog Solo Viajes: https://
+ Adicionalmente se muestra un extracto del landing page y se desplegó en GitHub Pages para el Blog Solo Viajes: [https://](https://angetru.github.io/Proyecto-3_Landing-page/)
  ![img blog](./images/extracto_blog.png)
   ****
   

@@ -61,7 +61,7 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
  
  ![img codigo html scripts](./images/cierre_scripts.png)
    
-*[Se incluye Link para visualización del Código index.html](./index.html)*
+*[Se incluye Link para visualización del código index.html](./index.html)*
 
   Para CSS, se establecen los estilos de base:
   ![img codigo CSS](./images/CSS_inicio.png)
@@ -69,7 +69,7 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
   Al final se incluye media queries, mobile first design para aplicar los ajustes necesarios en la vista "mobile":
   ![img codigo media](./images/media.png)
 
- *[Se incluye Link para visualización del Código style.css](./style.css)*
+ *[Se incluye Link para visualización del código style.css](./style.css)*
 
  Adicionalmente se muestra un extracto del landing page y se desplegó en GitHub Pages para el Blog Solo Viajes: [Link GitHub Pages](https://angetru.github.io/Proyecto-3_Landing-page/)
  

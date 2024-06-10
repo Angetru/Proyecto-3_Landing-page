@@ -43,7 +43,7 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
  
  Luego se crea la etiqueta "Nav" en base a bootstrap, el cual fue modificado para incluir logo, además de contenido y otros ajustes:
  
- ![img codigo html nav](./images/navl.png)
+ ![img codigo html nav](./images/nav.png)
 
  Posterior se crea la etiqueta "Main", se incluye una sección con videos y contenido principal:
  
@@ -71,7 +71,8 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
 
  *[Se incluye Link para visualización del Código style.css](./style.css)*
 
- Adicionalmente se muestra un extracto del landing page y se desplegó en GitHub Pages para el Blog Solo Viajes: [https://](https://angetru.github.io/Proyecto-3_Landing-page/)
+ Adicionalmente se muestra un extracto del landing page y se desplegó en GitHub Pages para el Blog Solo Viajes: [Link GitHub Pages](https://angetru.github.io/Proyecto-3_Landing-page/)
+ 
  ![img blog](./images/extracto_blog.png)
   ****
   

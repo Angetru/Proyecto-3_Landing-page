@@ -38,13 +38,13 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
 ### 3. Desarrollo de proyecto
  Se establecen las etiquetas de base en HTML, al inicio se aplican los links que permitan el funcionamiento de elementos que se aplicarán más adelante en el código y que permitirán que la página funcione eficientemente, y asi como la creación de "Header":
  
- ![img codigo html inicio](./images/inicio_html)
+ ![img codigo html inicio](./images/inicio_html.png)
  
  Luego se crea la etiqueta "Nav" en base a bootstrap, el cual fue modificado para incluir logo, además de contenido y otros ajustes:
- ![img codigo html nav](./images/navl)
+ ![img codigo html nav](./images/navl.png)
 
  Posterior se crea la etiqueta "Main", se incluye una sección con videos y contenido principal:
- ![img codigo html main](./images/main)
+ ![img codigo html main](./images/main.png)
 
  Se incluye una sección de cards, con Bootstrap, en donde se agrega contenido e imagenes en relación al tema de viajes: 
  ![img codigo html cards](./images/cards.png)
@@ -55,7 +55,7 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
  Y para finalizar, se incluyen los scripts previo al cierre de la etiqueta de "Body":
  ![img codigo html scripts](./images/cierre_scripts.png)
    
-*[Se incluye Link para visualización del Código index.html](./Codigo)*
+*[Se incluye Link para visualización del Código index.html](./codigo)*
 
   Para CSS, se establecen los estilos de base:
   ![img codigo CSS](./images/CSS_inicio.png)
@@ -63,10 +63,10 @@ Y los requisitos y entregables esperados, para UI, se detallan a continuación:
   Al final se incluye media queries, mobile first design para aplicar los ajustes necesarios en la vista "mobile":
   ![img codigo media](./images/media.png)
 
- *[Se incluye Link para visualización del Código style.css](./Codigo)*
+ *[Se incluye Link para visualización del Código style.css](./codigo)*
 
- Adicionalmente se desplegó el landing page en GitHub Pages para el Blog Solo Viajes: https://
-
+ Adicionalmente se muestra un extracto del landing page y se desplegó en GitHub Pages para el Blog Solo Viajes: https://
+ ![img blog](./images/extracto_blog.png)
   ****
   
   ### 5. Conclusiones

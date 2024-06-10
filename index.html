@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto III - Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://db.onlinewebfonts.com/c/af8360322ea08b2e685007f3951b7c8f?family=Zico+Display+H%2BL+Inline" rel="stylesheet"> 
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+  <body>
+  <!--sección de header logo y titulo-->
+  <header>
+    <div class="containerheader">
+      <div class="containerinicio">
+        <a href="#"><img src="./assets/img/Logo_SoloTravel_black.png" class="logo" alt="Logo Blog"/></a>
+      </div>
+      <div class="containerinicio">
+        <h1>Blog Solo Travel</h1>
+        <h6 class="sloganinicio">Viaja solo y vive tu aventura</h6>
+      </div>
+    </div>
+  </header>
+  <!--sección de nav-->
+  <nav class="navbar navbar-expand-lg navbar-dark mb-1">     
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Blog Solo Travel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Propósito</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Inspiración
+                </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Viajes express</a></li>
+                    <li><a class="dropdown-item" href="#">Viajes extendidos</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">¿Tienes una historia?</a>
+              </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="false">Contacto</a>
+                  </li>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit">Buscar</button>
+                </form>
+          </div>
+    </div>
+  </nav>
+  <hr>
+  <main>
+    <!--sección con videos-->
+    <section class="videos">
+      <div class="container-videos">
+        <video class="videoheader" controls playsinline autoplay muted loop> 
+          <source src="./assets/video/timetotravel.mp4" type="video/mp4">
+        </video>
+        <video class="videoheader" controls playsinline autoplay muted loop>
+          <source src="./assets/video/cloudsflight.mp4" type="video/mp4">
+        </video>
+        <video class="videoheader" controls playsinline autoplay muted loop>
+          <source src="./assets/video/womanwalking.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+      <br>
+    <section class="contenidoppal">
+      <h2>¡Bienvenido al Blog de viajes Solo Travel!</h2>
+        <p>Viajar solo es una experiencia transformadora que recomiendo a todos. En este blog encontrarás todo lo necesario para ganar confianza y emprender tu propio rumbo. ¿No sabes qué rutas tomar? ¿Necesitas consejos prácticos? Aquí te cuento mi experiencia viajando sola para inspirarte.</p>
+        <p>¿Por qué viajar solo?</p>
+        <p>Viajar solo es una de las experiencias más enriquecedoras y liberadoras que puedes tener. Aquí te explico por qué deberías considerar emprender tu próxima aventura en solitario:</p>
+        <ul>
+          <li>Libertad total: Tienes tu propio itinerario y vas a tu ritmo.</li>
+          <li>Autodescubrimento: Full conexión contigo mismo donde sea.</li>
+          <li>Nuevas amistades: Conoceras personas increibles y harás nuevas amistades.</li>
+        </ul>
+        <p>Viajar solo te permite descubrir el mundo desde una perspectiva única y personal. Cada viaje es una oportunidad para crecer, aprender y conectar, tanto contigo mismo como con el mundo que te rodea. Que el miedo no te detenga y...<span style="color:aqua;"><b>¡Disfruta viajando solo!</b></span></p>
+          <br>
+        <h6>Lo más destacado:</h6>
+          <br>
+          </section>
+          <!--sección de cards con imagenes-->
+          <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/Destinos.jpg" alt="Destinos">
+                <div class="card-body">
+                  <h5 class="card-title">Destinos</h5>
+                    <p class="card-text">Aqui encontrarás los destinos que he explorado, con recomendaciones para sacar el máximo provecho a tu estadía.</p>
+                      <a href="#" class="btn">¡Quiero saber más!</a>
+                  </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/Hacks.jpg" alt="Hacks de viaje">
+                <div class="card-body">
+                  <h5 class="card-title">Hacks de viaje</h5>
+                    <p class="card-text">¡Tips esenciales para que no falles en el viaje! Todo sobre pasajes, equipajes, stop-over, seguros convenientes, entre otros.</p>
+                      <a href="#" class="btn">¡Quiero saber más!</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/Appsviaje.jpg" alt="Aplicaciones">
+                <div class="card-body">
+                  <h5 class="card-title">Apps salvadoras</h5>
+                    <p class="card-text">Previo a tu viaje, te recomiendo las siguientes Apps imprescindibles para que tengas comunicación, mapas, tours, entre otros.</p>
+                      <a href="#" class="btn">¡Quiero saber más!</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="contenido-cierre">
+          <div class="contbodycierre"><p  class="frasecierre">Este es solo el inicio de una gran aventura. ¡Bienvenido a la comunidad Solo Travel!</p>
+          </div>
+          <div class="contbodycierre">
+            <a href="#"><img src="./assets/img/Logo_SoloTravel_black.png" class="logofin" alt="Logo Blog"/></a>
+          </div>
+        </div>
+    </main>
+    <hr>
+    <!--sección de footer con contacto y pagination-->
+    <footer>
+      <div class="container-pie">
+        <h6 class="titulofooter">Coordenadas de contacto</h6>
+        <br>
+      </div>
+      <div class="redes-sociales">
+        <a href="https://www.instagram.com/angelitruji/" target="_blank"> 
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:trujilloc.angelica@gmail.com">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a href="https://telegram.me/@Angetru" target="_blank">
+          <i class="fa-brands fa-telegram"></i>
+      </div>
+      <br>
+      <nav aria-label="page_navigation">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#">Previous</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container-copy">
+        <p class="copy">Copyright © 2024 Angelica Trujillo / Todos los derechos reservados</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a4b2dcee3d.js" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -140,7 +140,6 @@ a.page-link:hover{
 @media (max-width: 600px){
     body{
         background: black;
-        font-size:smaller;
     }
     .containerheader{
     display: none;
@@ -148,10 +147,14 @@ a.page-link:hover{
     .navbar-brand{
         color:aqua;
     }
+    
     .frasecierre{
         text-align: center;
     }
     .container-copy{
         font-size: xx-small;
+    }
+    .copy{
+        margin: 10px;
     }
 }
